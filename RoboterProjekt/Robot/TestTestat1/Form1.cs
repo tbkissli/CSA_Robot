@@ -22,6 +22,9 @@ namespace TestTestat1
             //neuen Roboter erstellen
             Robot robot = new Robot();
 
+            //Motoren einschalten des Roboters
+            robot.Drive.Power = true;
+
             //zwei Objekte und danach Threads erzeugen und starten für die verschiedenen Aufgaben
             BlinkingLED blinkingLED = new BlinkingLED();
             blinkingLED.Robot = robot;      //Robot Objekt über Property zuweisen, damit Zugriff auf LEDs 

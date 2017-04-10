@@ -17,3 +17,22 @@ D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotView\
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.RunArcView.resources
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.RunLineView.resources
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.RunTurnView.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\bin\Debug\RobotView.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\bin\Debug\RobotView.pdb
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\bin\Debug\RobotCtrl.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\bin\Debug\RobotCtrl.pdb
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.csprojResolveAssemblyReference.cache
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.CommonRunParameters.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.ConsoleView.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.DriveCtrlView.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.LedView.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.MotorCtrlView.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.NumberKeyboard.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.Resource.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.RunArcView.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.RunLineView.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.RunTurnView.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.SwitchView.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.csproj.GenerateResource.Cache
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotView\obj\Debug\RobotView.pdb

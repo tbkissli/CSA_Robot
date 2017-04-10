@@ -4,3 +4,9 @@ D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotIO\ob
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotIO\obj\Debug\RobotIO.pdb
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotIO\obj\Debug\RobotIO.csprojResolveAssemblyReference.cache
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotIO\bin\Debug\Lib\GPIOLib.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotIO\bin\Debug\Lib\GPIOLib.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotIO\bin\Debug\RobotIO.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotIO\bin\Debug\RobotIO.pdb
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotIO\obj\Debug\RobotIO.csprojResolveAssemblyReference.cache
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotIO\obj\Debug\RobotIO.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotIO\obj\Debug\RobotIO.pdb

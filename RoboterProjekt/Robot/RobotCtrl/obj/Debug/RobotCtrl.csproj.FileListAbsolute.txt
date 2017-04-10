@@ -3,3 +3,8 @@ D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotCtrl\
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotCtrl\obj\Debug\RobotCtrl.dll
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotCtrl\obj\Debug\RobotCtrl.pdb
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotCtrl\obj\Debug\RobotCtrl.csprojResolveAssemblyReference.cache
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotCtrl\bin\Debug\RobotCtrl.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotCtrl\bin\Debug\RobotCtrl.pdb
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotCtrl\obj\Debug\RobotCtrl.csprojResolveAssemblyReference.cache
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotCtrl\obj\Debug\RobotCtrl.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\RobotCtrl\obj\Debug\RobotCtrl.pdb

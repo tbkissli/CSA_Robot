@@ -13,3 +13,18 @@ D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.exe
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.pdb
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.Form1.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\bin\Debug\Lib\GPIOLib.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\bin\Debug\TestTestat1.exe
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\bin\Debug\TestTestat1.pdb
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\bin\Debug\RobotCtrl.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\bin\Debug\RobotIO.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\bin\Debug\RobotView.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\bin\Debug\RobotCtrl.pdb
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\bin\Debug\RobotIO.pdb
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\bin\Debug\RobotView.pdb
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.csprojResolveAssemblyReference.cache
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.Form1.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.Properties.Resources.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.csproj.GenerateResource.Cache
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.exe
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.pdb
