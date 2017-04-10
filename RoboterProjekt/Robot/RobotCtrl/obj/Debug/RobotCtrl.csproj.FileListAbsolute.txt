@@ -1,0 +1,5 @@
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotCtrl\bin\Debug\RobotCtrl.dll
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotCtrl\bin\Debug\RobotCtrl.pdb
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotCtrl\obj\Debug\RobotCtrl.dll
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotCtrl\obj\Debug\RobotCtrl.pdb
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\RobotCtrl\obj\Debug\RobotCtrl.csprojResolveAssemblyReference.cache

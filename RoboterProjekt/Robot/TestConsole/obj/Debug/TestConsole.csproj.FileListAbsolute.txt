@@ -1,0 +1,15 @@
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\bin\Debug\TestConsole.exe
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\bin\Debug\TestConsole.pdb
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\bin\Debug\RobotCtrl.dll
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\bin\Debug\RobotIO.dll
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\bin\Debug\RobotView.dll
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\bin\Debug\RobotCtrl.pdb
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\bin\Debug\RobotIO.pdb
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\bin\Debug\RobotView.pdb
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\obj\Debug\TestConsole.csprojResolveAssemblyReference.cache
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\obj\Debug\TestConsole.Properties.Resources.resources
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\obj\Debug\TestConsole.csproj.GenerateResource.Cache
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\obj\Debug\TestConsole.exe
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\obj\Debug\TestConsole.pdb
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\obj\Debug\TestConsole.Form1.resources
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestConsole\bin\Debug\Lib\GPIOLib.dll

@@ -1,0 +1,15 @@
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.csprojResolveAssemblyReference.cache
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.Properties.Resources.resources
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.csproj.GenerateResource.Cache
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\bin\Debug\Lib\GPIOLib.dll
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\bin\Debug\TestTestat1.exe
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\bin\Debug\TestTestat1.pdb
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\bin\Debug\RobotCtrl.dll
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\bin\Debug\RobotIO.dll
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\bin\Debug\RobotView.dll
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\bin\Debug\RobotCtrl.pdb
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\bin\Debug\RobotIO.pdb
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\bin\Debug\RobotView.pdb
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.exe
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.pdb
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\RoboterProjekt\Robot\TestTestat1\obj\Debug\TestTestat1.Form1.resources
