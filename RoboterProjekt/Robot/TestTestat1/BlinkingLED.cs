@@ -9,8 +9,12 @@ namespace TestTestat1
 {
     class BlinkingLED
     {
+        #region members
         private bool ledState = false;
         private int blinkPeriod = 500;      //Blink Periode in ms
+        #endregion
+
+        #region blinkLED Task Method
         public void blinkLED()
         {
             for(;;)   //Endlosloop des Tasks
@@ -26,7 +30,11 @@ namespace TestTestat1
                 Thread.Sleep(blinkPeriod);
             }
         }
+        #endregion
 
+        #region properties
         public Robot Robot { get; set; }
+        #endregion
+
     }
 }

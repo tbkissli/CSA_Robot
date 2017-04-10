@@ -24,8 +24,11 @@ namespace TestTestat1
 
             //zwei Objekte und danach Threads erzeugen und starten für die verschiedenen Aufgaben
             BlinkingLED blinkingLED = new BlinkingLED();
-            blinkingLED.Robot = robot;      //Robot Objekt über Property zuweisen, damit Zugriff auf LEDs möglich wird
+            blinkingLED.Robot = robot;      //Robot Objekt über Property zuweisen, damit Zugriff auf LEDs 
+                                            //möglich wird
             DriveParcour driveParcour = new DriveParcour();
+            driveParcour.Robot = robot;     //Robot Objekt über Property zuweisen, damit Zugriff auf drive 
+                                            //Methoden zugänglich sind
 
             //Erzeugen
             Thread blinkingTask = new Thread(new ThreadStart(blinkingLED.blinkLED));
@@ -44,12 +47,17 @@ namespace TestTestat1
 
         }
 
-        public bool Switch1 { get; set; }
+        
 
         //Wenn Schalter 1 betätigt wurde, soll der Vorgang gestartet werden
         private static void Switch1_SwitchStateChanged(object sender, SwitchEventArgs e)
         {
-            switch1enabled = true;
+            //Wenn bool Variable noch nicht gesetzt wurde --> setzen und Vorgänge starten
+            if (!switch1enabled)
+            {
+                switch1enabled = true;
+            }
+            
         }
 
     }
