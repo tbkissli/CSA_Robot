@@ -41,49 +41,46 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(196, 15);
+            this.pictureBox1.Location = new System.Drawing.Point(120, 15);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(296, 264);
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular);
-            this.label1.Location = new System.Drawing.Point(174, 306);
+            this.label1.Location = new System.Drawing.Point(94, 282);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(339, 126);
+            this.label1.Size = new System.Drawing.Size(339, 69);
             this.label1.Text = "CSA Übungsblatt 7 - Testataufgabe\r\nRaphael Kissling && Pirmin Herger\r\n11. April 2" +
     "017\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(196, 424);
+            this.textBox1.Location = new System.Drawing.Point(154, 364);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 27);
+            this.textBox1.Size = new System.Drawing.Size(100, 23);
             this.textBox1.TabIndex = 2;
-            
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(196, 467);
+            this.textBox2.Location = new System.Drawing.Point(350, 364);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 27);
+            this.textBox2.Size = new System.Drawing.Size(100, 23);
             this.textBox2.TabIndex = 3;
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(90, 424);
+            this.label2.Location = new System.Drawing.Point(78, 367);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 20);
+            this.label2.Size = new System.Drawing.Size(50, 20);
             this.label2.Text = "Breite:";
-            
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(90, 467);
+            this.label3.Location = new System.Drawing.Point(295, 367);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 20);
+            this.label3.Size = new System.Drawing.Size(49, 20);
             this.label3.Text = "Länge:";
             // 
             // Form1
@@ -91,7 +88,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(707, 573);
+            this.ClientSize = new System.Drawing.Size(547, 427);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox2);

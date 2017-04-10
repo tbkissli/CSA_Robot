@@ -12,15 +12,19 @@ using System.Threading;
 namespace TestTestat1
 {
     public partial class Form1 : Form
-    { 
+    {
+        #region members
         public static bool switch1enabled;
+        private Robot robot;
+        #endregion
 
+        #region constructors
         public Form1()
         {
             InitializeComponent();
 
             //neuen Roboter erstellen
-            Robot robot = new Robot();
+            robot = new Robot();
 
             //Motoren einschalten des Roboters
             robot.Drive.Power = true;
@@ -49,19 +53,21 @@ namespace TestTestat1
             robot.RobotConsole[Switches.Switch1].SwitchStateChanged += Switch1_SwitchStateChanged;
 
         }
+        #endregion
 
-        
-
+        #region methods
         //Wenn Schalter 1 betätigt wurde, soll der Vorgang gestartet werden
-        private static void Switch1_SwitchStateChanged(object sender, SwitchEventArgs e)
+        private void Switch1_SwitchStateChanged(object sender, SwitchEventArgs e)
         {
-            //Wenn bool Variable noch nicht gesetzt wurde --> setzen und Vorgänge starten
-            if (!switch1enabled)
+
+            //Wenn bool Variable noch nicht gesetzt und Schalter betätigt wurde --> Variable setzen
+            //und Vorgänge starten
+            if (robot.RobotConsole[Switches.Switch1].SwitchEnabled && !switch1enabled)
             {
                 switch1enabled = true;
             }
             
         }
-
+        #endregion
     }
 }
