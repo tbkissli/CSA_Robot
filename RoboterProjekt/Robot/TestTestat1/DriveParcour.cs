@@ -19,6 +19,8 @@ namespace TestTestat1
         private const float resolution = 0.05f;         //Auflösung Messungen in m
         private const int resolutionMS = 100;         //Messperiode in ms
 
+        private const float maxMeasureDistance = 1.5f;   //gibt die maximale Messdistanz in [m] an
+
         private float lenghtObject;     //berechnete Länge des Objekts
         private float widthObject;     //berechnete Breite des Objekts
 
@@ -45,7 +47,7 @@ namespace TestTestat1
                     Robot.Drive.RunLine(parcourLength, speedParcour, accelerationParcour);  
                     while (!Robot.Drive.Done)   //Solange RunMethode nicht abgeschlossen ist in while warten       
                     {
-                        if (Robot.Radar.Distance < 2)
+                        if (Robot.Radar.Distance < maxMeasureDistance)
                         {
                             measures1part  = measures1part + Robot.Radar.Distance;
                             i1part++;
@@ -62,7 +64,7 @@ namespace TestTestat1
                     Robot.Drive.RunLine(parcourWidth, speedParcour, accelerationParcour);  
                     while (!Robot.Drive.Done)   //Solange RunMethode nicht abgeschlossen ist in while warten       
                     {
-                        if (Robot.Radar.Distance < 2)
+                        if (Robot.Radar.Distance < maxMeasureDistance)
                         {
                             measures2part = measures2part + Robot.Radar.Distance;
                             i2part++;
@@ -79,7 +81,7 @@ namespace TestTestat1
                     Robot.Drive.RunLine(parcourLength, speedParcour, accelerationParcour);
                     while (!Robot.Drive.Done)   //Solange RunMethode nicht abgeschlossen ist in while warten       
                     {
-                        if (Robot.Radar.Distance < 2)
+                        if (Robot.Radar.Distance < maxMeasureDistance)
                         {
                             measures3part = measures3part + Robot.Radar.Distance;
                             i3part++;
@@ -96,7 +98,7 @@ namespace TestTestat1
                     Robot.Drive.RunLine(parcourWidth, speedParcour, accelerationParcour);
                     while (!Robot.Drive.Done)   //Solange RunMethode nicht abgeschlossen ist in while warten       
                     {
-                        if (Robot.Radar.Distance < 2)
+                        if (Robot.Radar.Distance < maxMeasureDistance)
                         {
                             measures4part = measures4part + Robot.Radar.Distance;
                             i4part++;
@@ -113,7 +115,8 @@ namespace TestTestat1
                     lenghtObject = parcourLength - (measures1part / i1part) - (measures3part / i3part);
                     widthObject = parcourWidth - (measures2part / i2part) - (measures4part / i4part);
 
-                    //berechnete Werte auf GUI schreiben --> dazu ein Event feuern
+                    //berechnete Werte auf GUI schreiben --> 
+                    //dazu ein Event feuern, der vom GUI (Form1) abonniert ist und dort auch gehandelt wird
                     OnObjectParametersChanged(new ObjectParametersEventArgs(lenghtObject, widthObject));
 
                     //neuer Durchgang zulassen indem switch enabled zurückgesetzt wird

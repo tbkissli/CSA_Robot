@@ -59,17 +59,6 @@ namespace TestTestat1
         }
         #endregion
 
-        //#region properties
-        //public float ObjectLength
-        //{
-        //    get;
-        //    set
-        //    {
-        //        textBoxLänge.Text = value.ToString;
-        //    }
-        //}
-        //#endregion
-
         #region event handler
         //Eventhandler für eine Änderung der Werte des GUIs (Form1)
         private void DriveParcour_ObjectParametersChanged(object sender, ObjectParametersEventArgs e)
