@@ -30,6 +30,8 @@ namespace TestTestat1
         private int i3part;     //Laufvariable zum Mittelwert berechnen
         private float measures4part;    //Messungen vierter Streckenteil
         private int i4part;     //Laufvariable zum Mittelwert berechnen
+
+        public event EventHandler<ObjectParametersEventArgs> ObjectParametersChanged;
         #endregion
 
         #region drive Task Method
@@ -111,9 +113,26 @@ namespace TestTestat1
                     lenghtObject = parcourLength - (measures1part / i1part) - (measures3part / i3part);
                     widthObject = parcourWidth - (measures2part / i2part) - (measures4part / i4part);
 
+                    //berechnete Werte auf GUI schreiben --> dazu ein Event feuern
+                    OnObjectParametersChanged(new ObjectParametersEventArgs(lenghtObject, widthObject));
+
                     //neuer Durchgang zulassen indem switch enabled zurückgesetzt wird
                     Form1.switch1enabled = false;
                 }
+            }
+        }
+        #endregion
+
+        #region methods
+        /// <summary>
+        /// Erzeugt das GUIChanged Event.
+        /// </summary>
+        /// <param name="e"></param>
+        protected void OnObjectParametersChanged(ObjectParametersEventArgs e)
+        {
+            if (ObjectParametersChanged != null)
+            {
+                ObjectParametersChanged(this, e);
             }
         }
         #endregion
