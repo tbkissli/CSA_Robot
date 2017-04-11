@@ -84,14 +84,27 @@ namespace TestTestat1
         //Wenn Schalter 1 betätigt wurde, soll der Vorgang gestartet werden
         private void Switch1_SwitchStateChanged(object sender, SwitchEventArgs e)
         {
-
-            //Wenn bool Variable noch nicht gesetzt und Schalter betätigt wurde --> Variable setzen
-            //und Vorgänge starten
-            if (e.SwitchEnabled && !switch1enabled)
+            //Invoke Required ist nötig, da nur der Thread der hier die SwitchView erzeugt hat, etwas am 
+            //GUI ändern darf. Wenn dieser Thread aktiv ist, ist InvokeRequired = false und das GUI wird aktualisiert
+            //Ansonsten wenn ein anderer Thread zugreifen will, ist das InvokeRequired = true und die 
+            //SwitchStateChanged Methode muss nochmals aufgerufen werden vom richtigen Thread. Das geschieht im 
+            //Code unten nach der If-Anweisung Invoke(new.....)
+            if (InvokeRequired)
             {
-                switch1enabled = true;
+                Invoke(new EventHandler<SwitchEventArgs>(Switch1_SwitchStateChanged), sender, e);
             }
-            
+            else
+            {
+                //Wenn bool Variable noch nicht gesetzt und Schalter betätigt wurde --> Variable setzen
+                //und Vorgänge starten
+                if (e.SwitchEnabled && !switch1enabled)
+                {
+                    //Textbox                 
+                    textBoxLänge.Text = "Messung läuft...";     
+                    textBoxBreite.Text = "Messung läuft...";
+                    switch1enabled = true;
+                }
+            }            
         }
         #endregion
     }

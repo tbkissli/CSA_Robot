@@ -4,14 +4,16 @@ using System.Linq;
 using System.Text;
 using RobotCtrl;
 using System.Threading;
+using System.Diagnostics;
+
 
 namespace TestTestat1
 {
     class DriveParcour
     {
         #region members
-        private const float parcourLength = 2;      //Länge des Parcours[m] --> müsste 3m sein
-        private const float parcourWidth = 2;       //Breite des Parcours[m] --> müsste 2.5m sein
+        private const float parcourLength = 1.5f;      //Länge des Parcours[m] --> müsste 3m sein
+        private const float parcourWidth = 1.5f;       //Breite des Parcours[m] --> müsste 2.5m sein
         private const float speedParcour = 0.5f;           //Geschwindigkeit [m/s]
         private const float accelerationParcour = 0.2f;    //Beschleunigung [m/(s^2)]
         private const float parcourAngle = 90;             //Drehwinkel [°]
@@ -19,10 +21,12 @@ namespace TestTestat1
         private const float resolution = 0.05f;         //Auflösung Messungen in m
         private const int resolutionMS = 100;         //Messperiode in ms
 
-        private const float maxMeasureDistance = 1.5f;   //gibt die maximale Messdistanz in [m] an
+        private const float maxMeasureDistance = 1.2f;   //gibt die maximale Messdistanz in [m] an
 
         private float lenghtObject;     //berechnete Länge des Objekts
         private float widthObject;     //berechnete Breite des Objekts
+
+        private const float roboterWidth = 0.22f; //Roboterbreite in m 
 
         private float measures1part;    //Messungen erster Streckenteil
         private int i1part;     //Laufvariable zum Mittelwert berechnen
@@ -50,6 +54,7 @@ namespace TestTestat1
                         if (Robot.Radar.Distance < maxMeasureDistance)
                         {
                             measures1part  = measures1part + Robot.Radar.Distance;
+                            Debug.WriteLine("Strecke 1 Radar Wert: " + Robot.Radar.Distance);
                             i1part++;
                         }
                         //Thread.Sleep((int)(1000*(resolution / speedParcour)));
@@ -67,6 +72,7 @@ namespace TestTestat1
                         if (Robot.Radar.Distance < maxMeasureDistance)
                         {
                             measures2part = measures2part + Robot.Radar.Distance;
+                            Debug.WriteLine("Strecke 2 Radar Wert: " + Robot.Radar.Distance);
                             i2part++;
                         }
                         //Thread.Sleep((int)(1000*(resolution / speedParcour)));
@@ -84,6 +90,7 @@ namespace TestTestat1
                         if (Robot.Radar.Distance < maxMeasureDistance)
                         {
                             measures3part = measures3part + Robot.Radar.Distance;
+                            Debug.WriteLine("Strecke 3 Radar Wert: " + Robot.Radar.Distance);
                             i3part++;
                         }
                         //Thread.Sleep((int)(1000*(resolution / speedParcour)));
@@ -101,6 +108,7 @@ namespace TestTestat1
                         if (Robot.Radar.Distance < maxMeasureDistance)
                         {
                             measures4part = measures4part + Robot.Radar.Distance;
+                            Debug.WriteLine("Strecke 4 Radar Wert: " + Robot.Radar.Distance);
                             i4part++;
                         }
                         //Thread.Sleep((int)(1000*(resolution / speedParcour)));
@@ -112,15 +120,24 @@ namespace TestTestat1
                     while (!Robot.Drive.Done) ;   //Solange RunMethode nicht abgeschlossen ist in while warten  
 
                     //Berechnungen Länge und Breite Objekt
-                    lenghtObject = parcourLength - (measures1part / i1part) - (measures3part / i3part);
-                    widthObject = parcourWidth - (measures2part / i2part) - (measures4part / i4part);
+                    widthObject = parcourWidth - (measures1part / i1part) - (measures3part / i3part) - roboterWidth;
+                    lenghtObject = parcourLength - (measures2part / i2part) - (measures4part / i4part) - roboterWidth;
 
+                    Debug.WriteLine("Breite Objekt: " + widthObject);
+                    Debug.WriteLine("Länge Objekt: " + lenghtObject);
+                    
                     //berechnete Werte auf GUI schreiben --> 
                     //dazu ein Event feuern, der vom GUI (Form1) abonniert ist und dort auch gehandelt wird
                     OnObjectParametersChanged(new ObjectParametersEventArgs(lenghtObject, widthObject));
 
                     //neuer Durchgang zulassen indem switch enabled zurückgesetzt wird
                     Form1.switch1enabled = false;
+
+                    //LEDs löschen falls noch leuchten
+                    Robot.RobotConsole[Leds.Led1].LedEnabled = false;
+                    Robot.RobotConsole[Leds.Led2].LedEnabled = false;
+                    Robot.RobotConsole[Leds.Led3].LedEnabled = false;
+                    Robot.RobotConsole[Leds.Led4].LedEnabled = false;
                 }
             }
         }

@@ -57,17 +57,21 @@
             // 
             // textBoxBreite
             // 
+            this.textBoxBreite.Enabled = false;
             this.textBoxBreite.Location = new System.Drawing.Point(154, 364);
             this.textBoxBreite.Name = "textBoxBreite";
             this.textBoxBreite.Size = new System.Drawing.Size(100, 23);
             this.textBoxBreite.TabIndex = 2;
+            this.textBoxBreite.Text = "-";
             // 
             // textBoxLänge
             // 
+            this.textBoxLänge.Enabled = false;
             this.textBoxLänge.Location = new System.Drawing.Point(350, 364);
             this.textBoxLänge.Name = "textBoxLänge";
             this.textBoxLänge.Size = new System.Drawing.Size(100, 23);
             this.textBoxLänge.TabIndex = 3;
+            this.textBoxLänge.Text = "-";
             // 
             // label2
             // 
