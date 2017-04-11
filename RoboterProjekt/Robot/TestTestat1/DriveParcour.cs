@@ -17,7 +17,7 @@ namespace TestTestat1
         private const float parcourAngle = 90;             //Drehwinkel [°]
 
         private const float resolution = 0.05f;         //Auflösung Messungen in m
-        private const int resolutionMS = 100;         //Messperiode
+        private const int resolutionMS = 100;         //Messperiode in ms
 
         private float lenghtObject;     //berechnete Länge des Objekts
         private float widthObject;     //berechnete Breite des Objekts
@@ -48,7 +48,7 @@ namespace TestTestat1
                             measures1part  = measures1part + Robot.Radar.Distance;
                             i1part++;
                         }
-                        //Thread.Sleep(1000*(int)(resolution / speedParcour));
+                        //Thread.Sleep((int)(1000*(resolution / speedParcour)));
                         Thread.Sleep(resolutionMS);
                     }
 
@@ -65,7 +65,7 @@ namespace TestTestat1
                             measures2part = measures2part + Robot.Radar.Distance;
                             i2part++;
                         }
-                        //Thread.Sleep(1000*(int)(resolution / speedParcour));
+                        //Thread.Sleep((int)(1000*(resolution / speedParcour)));
                         Thread.Sleep(resolutionMS);
                     }
 
@@ -82,7 +82,7 @@ namespace TestTestat1
                             measures3part = measures3part + Robot.Radar.Distance;
                             i3part++;
                         }
-                        //Thread.Sleep(1000*(int)(resolution / speedParcour));
+                        //Thread.Sleep((int)(1000*(resolution / speedParcour)));
                         Thread.Sleep(resolutionMS);
                     }
 
@@ -99,7 +99,7 @@ namespace TestTestat1
                             measures4part = measures4part + Robot.Radar.Distance;
                             i4part++;
                         }
-                        //Thread.Sleep(1000*(int)(resolution / speedParcour));
+                        //Thread.Sleep((int)(1000*(resolution / speedParcour)));
                         Thread.Sleep(resolutionMS);
                     }
 
