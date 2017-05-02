@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackHole", "..\..\Desktop\Semester\CSharp\CSA_F17\CSA_F17\Threads\Uebungen\BlackHole\BlackHole.csproj", "{39890ED2-53A8-401C-9A9A-9FC246EC06FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Counter", "..\..\Desktop\Semester\CSharp\CSA_F17\CSA_F17\Threads\Uebungen\Counter\Counter.csproj", "{C793C68C-9AC8-4D0F-8FF2-C4C7DD04133A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latch", "..\..\Desktop\Semester\CSharp\CSA_F17\CSA_F17\Threads\Uebungen\Latch\Latch.csproj", "{B5BF00F3-67A3-4D24-9A1C-0544FAFAD63B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostSignals", "..\..\Desktop\Semester\CSharp\CSA_F17\CSA_F17\Threads\Uebungen\LostSignals\LostSignals.csproj", "{828F1973-F649-4F3D-AC0C-55C5E69CF44A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitPool", "..\..\Desktop\Semester\CSharp\CSA_F17\CSA_F17\Threads\Uebungen\WaitPool\WaitPool.csproj", "{8F0EEEEF-3813-40DF-ABA0-D06215DD0FE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProcessSynch", "ProcessSynch", "{15C57F13-D4E1-4A05-9F06-FEA44F790424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adder", "..\..\Desktop\Semester\CSharp\CSA_F17\CSA_F17\Threads\Uebungen\ProcessSynch\Adder\Adder.csproj", "{392D5441-5966-40DB-A610-40FB49212FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generator", "..\..\Desktop\Semester\CSharp\CSA_F17\CSA_F17\Threads\Uebungen\ProcessSynch\Generator\Generator.csproj", "{DBF591F4-9892-4067-B751-73718FCB3678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMax", "..\..\Desktop\Semester\CSharp\CSA_F17\CSA_F17\Threads\Uebungen\ProcessSynch\MinMax\MinMax.csproj", "{1052F4E4-276D-491E-8E10-8102740C16EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartProc", "..\..\Desktop\Semester\CSharp\CSA_F17\CSA_F17\Threads\Uebungen\ProcessSynch\StartProc\StartProc.csproj", "{7489D027-0E88-4F8B-8035-45A83E69AFB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39890ED2-53A8-401C-9A9A-9FC246EC06FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39890ED2-53A8-401C-9A9A-9FC246EC06FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39890ED2-53A8-401C-9A9A-9FC246EC06FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39890ED2-53A8-401C-9A9A-9FC246EC06FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C793C68C-9AC8-4D0F-8FF2-C4C7DD04133A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C793C68C-9AC8-4D0F-8FF2-C4C7DD04133A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C793C68C-9AC8-4D0F-8FF2-C4C7DD04133A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C793C68C-9AC8-4D0F-8FF2-C4C7DD04133A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5BF00F3-67A3-4D24-9A1C-0544FAFAD63B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BF00F3-67A3-4D24-9A1C-0544FAFAD63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BF00F3-67A3-4D24-9A1C-0544FAFAD63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BF00F3-67A3-4D24-9A1C-0544FAFAD63B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828F1973-F649-4F3D-AC0C-55C5E69CF44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828F1973-F649-4F3D-AC0C-55C5E69CF44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828F1973-F649-4F3D-AC0C-55C5E69CF44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828F1973-F649-4F3D-AC0C-55C5E69CF44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0EEEEF-3813-40DF-ABA0-D06215DD0FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0EEEEF-3813-40DF-ABA0-D06215DD0FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0EEEEF-3813-40DF-ABA0-D06215DD0FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0EEEEF-3813-40DF-ABA0-D06215DD0FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392D5441-5966-40DB-A610-40FB49212FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392D5441-5966-40DB-A610-40FB49212FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392D5441-5966-40DB-A610-40FB49212FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392D5441-5966-40DB-A610-40FB49212FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF591F4-9892-4067-B751-73718FCB3678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF591F4-9892-4067-B751-73718FCB3678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF591F4-9892-4067-B751-73718FCB3678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF591F4-9892-4067-B751-73718FCB3678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1052F4E4-276D-491E-8E10-8102740C16EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1052F4E4-276D-491E-8E10-8102740C16EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1052F4E4-276D-491E-8E10-8102740C16EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1052F4E4-276D-491E-8E10-8102740C16EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7489D027-0E88-4F8B-8035-45A83E69AFB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7489D027-0E88-4F8B-8035-45A83E69AFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7489D027-0E88-4F8B-8035-45A83E69AFB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7489D027-0E88-4F8B-8035-45A83E69AFB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{392D5441-5966-40DB-A610-40FB49212FDA} = {15C57F13-D4E1-4A05-9F06-FEA44F790424}
+		{DBF591F4-9892-4067-B751-73718FCB3678} = {15C57F13-D4E1-4A05-9F06-FEA44F790424}
+		{1052F4E4-276D-491E-8E10-8102740C16EE} = {15C57F13-D4E1-4A05-9F06-FEA44F790424}
+		{7489D027-0E88-4F8B-8035-45A83E69AFB5} = {15C57F13-D4E1-4A05-9F06-FEA44F790424}
+	EndGlobalSection
+EndGlobal
