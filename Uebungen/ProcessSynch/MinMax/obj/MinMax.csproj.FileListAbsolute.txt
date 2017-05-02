@@ -1,0 +1,2 @@
+M:\ATIS\PROJEKTE\PRGSY.W07\ThreadAufgaben\MinMax\obj\Debug\MinMax.exe
+M:\ATIS\PROJEKTE\PRGSY.W07\ThreadAufgaben\MinMax\obj\Debug\MinMax.pdb

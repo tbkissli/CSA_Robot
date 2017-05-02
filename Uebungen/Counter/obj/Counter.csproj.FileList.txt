@@ -1,0 +1,5 @@
+bin\Release\Counter.exe
+bin\Release\Counter.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Counter.exe
+obj\Release\Counter.pdb

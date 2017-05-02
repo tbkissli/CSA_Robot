@@ -1,0 +1,5 @@
+obj\Release\ResolveAssemblyReference.cache
+bin\Release\Latch.exe
+bin\Release\Latch.pdb
+obj\Release\Latch.exe
+obj\Release\Latch.pdb
