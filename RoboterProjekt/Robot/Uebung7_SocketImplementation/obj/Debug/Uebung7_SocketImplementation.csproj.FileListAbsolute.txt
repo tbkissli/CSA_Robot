@@ -1,0 +1,14 @@
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung7_SocketImplementation\obj\Debug\Uebung7_SocketImplementation.csprojResolveAssemblyReference.cache
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung7_SocketImplementation\obj\Debug\Uebung7_SocketImplementation.Properties.Resources.resources
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung7_SocketImplementation\obj\Debug\Uebung7_SocketImplementation.csproj.GenerateResource.Cache
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung7_SocketImplementation\bin\Debug\Lib\GPIOLib.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung7_SocketImplementation\bin\Debug\Uebung7_SocketImplementation.exe
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung7_SocketImplementation\bin\Debug\Uebung7_SocketImplementation.pdb
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung7_SocketImplementation\bin\Debug\RobotCtrl.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung7_SocketImplementation\bin\Debug\RobotIO.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung7_SocketImplementation\bin\Debug\RobotView.dll
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung7_SocketImplementation\bin\Debug\RobotCtrl.pdb
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung7_SocketImplementation\bin\Debug\RobotIO.pdb
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung7_SocketImplementation\bin\Debug\RobotView.pdb
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung7_SocketImplementation\obj\Debug\Uebung7_SocketImplementation.exe
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung7_SocketImplementation\obj\Debug\Uebung7_SocketImplementation.pdb
