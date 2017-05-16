@@ -1,0 +1,6 @@
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\Teil 2 (Dir)\Praktikum\CSA_F17\Sockets\Uebungen\RobotHttpServer\bin\Debug\daten.txt
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\Teil 2 (Dir)\Praktikum\CSA_F17\Sockets\Uebungen\RobotHttpServer\bin\Debug\RobotHttpServer.exe
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\Teil 2 (Dir)\Praktikum\CSA_F17\Sockets\Uebungen\RobotHttpServer\bin\Debug\RobotHttpServer.pdb
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\Teil 2 (Dir)\Praktikum\CSA_F17\Sockets\Uebungen\RobotHttpServer\obj\Debug\Uebung8_RobotHttpServer.csprojResolveAssemblyReference.cache
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\Teil 2 (Dir)\Praktikum\CSA_F17\Sockets\Uebungen\RobotHttpServer\obj\Debug\RobotHttpServer.exe
+D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\Teil 2 (Dir)\Praktikum\CSA_F17\Sockets\Uebungen\RobotHttpServer\obj\Debug\RobotHttpServer.pdb
