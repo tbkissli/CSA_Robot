@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTestat1", "TestTestat1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uebung7_SocketImplementation", "Uebung7_SocketImplementation\Uebung7_SocketImplementation.csproj", "{E777272A-2A37-47A7-AA2F-94C6A6CB5D19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uebung8_RobotHttpServer", "D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\Teil 2 (Dir)\Praktikum\CSA_F17\Sockets\Uebungen\RobotHttpServer\Uebung8_RobotHttpServer.csproj", "{477F5994-0989-4E4C-854B-CF62101DD6E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,12 @@ Global
 		{E777272A-2A37-47A7-AA2F-94C6A6CB5D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E777272A-2A37-47A7-AA2F-94C6A6CB5D19}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E777272A-2A37-47A7-AA2F-94C6A6CB5D19}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{477F5994-0989-4E4C-854B-CF62101DD6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477F5994-0989-4E4C-854B-CF62101DD6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477F5994-0989-4E4C-854B-CF62101DD6E2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{477F5994-0989-4E4C-854B-CF62101DD6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477F5994-0989-4E4C-854B-CF62101DD6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{477F5994-0989-4E4C-854B-CF62101DD6E2}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
