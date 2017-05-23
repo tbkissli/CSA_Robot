@@ -70,13 +70,13 @@
       <Project>{57910651-CACB-4DD8-9D60-A1C00B2DC97A}</Project>
       <Name>RobotView</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Uebung8_RobotHttpServer\Uebung8_RobotHttpServer.csproj">
+      <Project>{477F5994-0989-4E4C-854B-CF62101DD6E2}</Project>
+      <Name>Uebung8_RobotHttpServer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Uebung9_DriveServer\Uebung9_DriveServer.csproj">
       <Project>{FAC32AD6-8DBC-4048-855E-C2F2E180317A}</Project>
       <Name>Uebung9_DriveServer</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Uebung9_HttpServer\Uebung9_HttpServer.csproj">
-      <Project>{3889A881-3BC5-4E06-8C9E-F35549DA9397}</Project>
-      <Name>Uebung9_HttpServer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkTargetsVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
