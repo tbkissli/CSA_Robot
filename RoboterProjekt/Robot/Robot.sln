@@ -21,6 +21,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uebung7_SocketImplementatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uebung8_RobotHttpServer", "Uebung8_RobotHttpServer\Uebung8_RobotHttpServer.csproj", "{477F5994-0989-4E4C-854B-CF62101DD6E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uebung9_Testat2", "Uebung9_Testat2\Uebung9_Testat2.csproj", "{B122884B-2A9E-42DD-8E25-B1E9F211F139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uebung9_DriveServer", "Uebung9_DriveServer\Uebung9_DriveServer.csproj", "{FAC32AD6-8DBC-4048-855E-C2F2E180317A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uebung9_HttpServer", "Uebung9_HttpServer\Uebung9_HttpServer.csproj", "{3889A881-3BC5-4E06-8C9E-F35549DA9397}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +87,24 @@ Global
 		{477F5994-0989-4E4C-854B-CF62101DD6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{477F5994-0989-4E4C-854B-CF62101DD6E2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{477F5994-0989-4E4C-854B-CF62101DD6E2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B122884B-2A9E-42DD-8E25-B1E9F211F139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B122884B-2A9E-42DD-8E25-B1E9F211F139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B122884B-2A9E-42DD-8E25-B1E9F211F139}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B122884B-2A9E-42DD-8E25-B1E9F211F139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B122884B-2A9E-42DD-8E25-B1E9F211F139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B122884B-2A9E-42DD-8E25-B1E9F211F139}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FAC32AD6-8DBC-4048-855E-C2F2E180317A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC32AD6-8DBC-4048-855E-C2F2E180317A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC32AD6-8DBC-4048-855E-C2F2E180317A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FAC32AD6-8DBC-4048-855E-C2F2E180317A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC32AD6-8DBC-4048-855E-C2F2E180317A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC32AD6-8DBC-4048-855E-C2F2E180317A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3889A881-3BC5-4E06-8C9E-F35549DA9397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3889A881-3BC5-4E06-8C9E-F35549DA9397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3889A881-3BC5-4E06-8C9E-F35549DA9397}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3889A881-3BC5-4E06-8C9E-F35549DA9397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3889A881-3BC5-4E06-8C9E-F35549DA9397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3889A881-3BC5-4E06-8C9E-F35549DA9397}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

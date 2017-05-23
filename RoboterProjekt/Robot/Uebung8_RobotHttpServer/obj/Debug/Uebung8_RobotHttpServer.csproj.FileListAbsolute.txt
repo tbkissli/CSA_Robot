@@ -4,3 +4,9 @@ D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\Teil 2 (Dir)\Praktikum\CSA_F17\
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\Teil 2 (Dir)\Praktikum\CSA_F17\Sockets\Uebungen\RobotHttpServer\obj\Debug\Uebung8_RobotHttpServer.csprojResolveAssemblyReference.cache
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\Teil 2 (Dir)\Praktikum\CSA_F17\Sockets\Uebungen\RobotHttpServer\obj\Debug\RobotHttpServer.exe
 D:\Elektrotechnik Studium HSLU\08_FS_2018\06_CSA\Teil 2 (Dir)\Praktikum\CSA_F17\Sockets\Uebungen\RobotHttpServer\obj\Debug\RobotHttpServer.pdb
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung8_RobotHttpServer\bin\Debug\daten.txt
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung8_RobotHttpServer\bin\Debug\RobotHttpServer.exe
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung8_RobotHttpServer\bin\Debug\RobotHttpServer.pdb
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung8_RobotHttpServer\obj\Debug\Uebung8_RobotHttpServer.csprojResolveAssemblyReference.cache
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung8_RobotHttpServer\obj\Debug\RobotHttpServer.exe
+C:\Users\Raphael.Kissling\Documents\SourceTree\CSA_Robot\RoboterProjekt\Robot\Uebung8_RobotHttpServer\obj\Debug\RobotHttpServer.pdb
